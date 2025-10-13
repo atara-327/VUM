@@ -1,0 +1,53 @@
+:root {
+    --bg-color: #2F2D35;
+    --text-color: #E9E9E9;
+
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+body {
+    padding: 1rem;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+@media screen and (max-width: 900px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+    }
+
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+}
+
+main {
+    margin: 0 2rem;
+    padding: 1rem;
+}
+
+.title {
+    font-size: 3rem;
+    text-align: center;
+}
+
+
+a {
+    color: var(--text-color);
+}
+
+a:hover {
+    color: color-mix(in srgb, var(--text-color), black 50%);
+}
