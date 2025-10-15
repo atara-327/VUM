@@ -3,7 +3,7 @@
   $schema: "https://raw.githubusercontent.com/electron-userland/electron-builder/master/packages/app-builder-lib/scheme.json",
   appId: "com.ataraman.vum",
   asar: true,
-  productName: "VRChat-Unitypackage-Manager",
+  productName: "VUM",
   directories: {
     output: "release/${version}",
   },
